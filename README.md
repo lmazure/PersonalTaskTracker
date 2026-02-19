@@ -55,18 +55,18 @@ On first run it automatically creates the `tasks` table if it does not exist.
 ```bash
 cd frontend
 npm install
-ng serve
+npx ng serve
 ```
 
-Open your browser at `http://localhost:4200`.
+Open your browser at [http://localhost:4200](http://localhost:4200).
 
 The Angular dev server proxies all `/api` requests to the backend, so no CORS configuration is needed during development.
 
 ## API reference
 
-| Method | Path | Description |
-|--------|------|-------------|
-| GET | `/api/tasks` | List all tasks |
-| POST | `/api/tasks` | Create a task (`{ "title": "..." }`) |
-| PATCH | `/api/tasks/:id/done` | Mark a task as done |
-| DELETE | `/api/tasks/:id` | Delete a task |
+| Method | Path                  | Description                          |
+|--------|-----------------------|--------------------------------------|
+| GET    | `/api/tasks`          | List all tasks                       |
+| POST   | `/api/tasks`          | Create a task (`{ "title": "..." }`) |
+| PATCH  | `/api/tasks/:id/done` | Mark a task as done                  |
+| DELETE | `/api/tasks/:id`      | Delete a task                        |
