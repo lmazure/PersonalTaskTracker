@@ -4,11 +4,12 @@ A simple TODO web application built with Angular, Node.js/Express, and PostgreSQ
 
 ## Prerequisites
 
-- [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed and running
-- [Node.js](https://nodejs.org/) v18+ installed
-- [Angular CLI](https://angular.io/cli) installed globally:
+- [Docker](https://docs.docker.com/engine/install) installed and running
+- [Node.js](https://nodejs.org/) v20+ installed
+- [Angular CLI](https://angular.io/cli) installed:
   ```bash
-  npm install -g @angular/cli
+  cd frontend
+  npm install @angular/cli
   ```
 
 ## 1. Start the PostgreSQL database
